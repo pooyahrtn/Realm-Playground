@@ -1,6 +1,6 @@
 # Realm Playground
 
-![Screenshot](https://github.com/pooyahrtn/Realm-Playground/blob/master/screenshot.png | width=100)
+![Screenshot](https://github.com/pooyahrtn/Realm-Playground/blob/master/screenshot.png)
 1. Create a new user: enter email and username then press "Add new user" button. It will create a new user in Realm database.
 2. Press "Refresh" button to load users inside database and refresh the list view. 
 3. To export users table, press "Export" button. It will create a file named "users.json", and save it to [the absolute path to the document directory](https://github.com/itinance/react-native-fs#api).
