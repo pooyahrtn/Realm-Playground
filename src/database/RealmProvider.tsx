@@ -9,7 +9,9 @@ import Realm from 'realm';
 import {schemas} from './models';
 
 const RealmContext = createContext<Realm | undefined>(undefined);
-
+/**
+ * To avoid realm be undefined, we can handle loading it on splash screen
+ */
 export default (props: PropsWithChildren<{}>) => {
   const {children} = props;
 

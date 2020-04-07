@@ -1,7 +1,7 @@
 import {ObjectSchema} from 'realm';
 export interface User {
-  name: string;
   email: string;
+  name: string;
 }
 
 export const userSchema: ObjectSchema = {
